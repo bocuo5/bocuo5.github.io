@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技巧 on 阿成的boke</title>
+    <link>/tags/%E6%8A%80%E5%B7%A7/</link>
+    <description>Recent content in 技巧 on 阿成的boke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <lastBuildDate>Sat, 10 Jun 2023 03:51:45 +0800</lastBuildDate><atom:link href="/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo基本操作</title>
+      <link>/posts/hugo%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</link>
+      <pubDate>Sat, 10 Jun 2023 03:51:45 +0800</pubDate>
+      
+      <guid>/posts/hugo%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</guid>
+      <description>官方文档https://gohugo.io/getting-started/quick-start/
+重点以下代码部分都是在PowerShell中输入
+新增博客PowerShell 内输入以下代码
+hugo new posts/文件名字.md新增的文件在 content/posts 目录下。使用编辑器打开文件即可编辑内容。
+也可以先写好内容，然后把md文件放到该目录中
+查看博客开启本地调试，默认地址是：http://localhost:1313/。md 文档修改时，在 html 页面上可以实时看到变化；
+hugo serverCtrl + C 停止 Hugo 的开发服务器
+运行以下任一命令可以预览草稿内容
+hugo server --buildDraftshugo server -D</description>
+    </item>
+    
+    <item>
+      <title>hugo主题配置</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Sat, 10 Jun 2023 02:41:45 +0800</pubDate>
+      
+      <guid>/posts/my-first-post/</guid>
+      <description>简介：主题名叫 hugo-theme-itheme ，是一款苹果味十足的Hugo主题
+预览： https://hugo-theme-itheme.netlify.app
+网站截图github中文介绍文档：https://github.com/floyd-li/hugo-theme-itheme/blob/master/README_CN.md#site-configuration
+hugo官网介绍：https://themes.gohugo.io/themes/hugo-theme-itheme/
+重点：文章开头的设置title: &amp;#39;Some Article&amp;#39; //标题名称date: &amp;#39;2022-10-27T13:06:38&amp;#43;08:00&amp;#39;draft: true //true 关闭；false 开启description: &amp;#39;some description of the article&amp;#39; //小标题author: &amp;#39;author of this article&amp;#39; //作者cover: &amp;#39;https://example.com/cover.jpg&amp;#39; // 封面图，如无配置，将用站点配置中的defaultCovertags: [&amp;#34;tag1&amp;#34;, &amp;#34;tag2&amp;#34;, &amp;#34;tag3&amp;#34;] //文章标签theme: &amp;#34;dark&amp;#34; // 设置文章的明暗主题(light/dark)调整内文图片尺寸文章内图片有三种显示模式，分别为
+inline（中杯），big（大杯），wide（特大杯）
+应用举例：
+![中杯|inline](这里填入图片的链接)分隔符是英文字符|，如果未设置则默认显示大杯big。</description>
+    </item>
+    
+  </channel>
+</rss>

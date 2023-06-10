@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html class="js no-touch  progressive-image  no-reduced-motion progressive" lang="zh-hans">
+  <head>
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/img/favicon.ico">
+
+    <meta name="keyword" content=""><meta property="og:title" content="hugo主题配置" />
+<meta property="og:description" content="主题简单说明" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/my-first-post/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-10T02:41:45+08:00" />
+<meta property="article:modified_time" content="2023-06-10T02:41:45+08:00" />
+<title>hugo主题配置</title>
+
+    <link rel="canonical" href="/posts/my-first-post/">
+
+    <link rel="stylesheet" href="/css/global.css">
+
+    <link rel="stylesheet" href="/css/custom.css">
+
+    <link rel="stylesheet" href="/css/search.css" />
+
+    
+    
+    <link rel="stylesheet" href="/css/autocomplete-theme-classic.css" />
+    
+
+    
+    
+    <link rel="stylesheet" href="/css1.css" />
+    
+    <link rel="stylesheet" href="/css2.css" />
+    
+
+</head>
+  </head>
+  <body class=" page-article   ">
+    <header>
+      <nav class="nav">
+  <div class="nav-wrapper">
+    <div class="nav-content-wrapper">
+      <div class="nav-content">
+        <a href="/ " class="nav-title">阿成的boke</a>
+        <div class="nav-menu">
+          <div class="nav-item-wrapper">
+            <a href="/posts " class="nav-item-content">目录</a>
+          </div><div class="nav-item-wrapper">
+            <a href="/index.xml" class="nav-item-content" target="_blank">RSS</a>
+          </div><div class="nav-item-wrapper">
+            <a href="#" onclick="toggleSearchModal()" class="nav-item-content">搜索</a>
+          </div></div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  function toggleSearchModal(){
+    const template = `
+    <div class="modal-body">
+      <div id="autocomplete" onclick="event.stopPropagation();"></div>
+    </div>
+    `
+    const modal = document.querySelector("#modal-wrapper")
+    if(!modal){
+      const div = document.createElement("div")
+      document.body.setAttribute("style","overflow: hidden;")
+      div.setAttribute("id", "modal-wrapper")
+      div.setAttribute("onclick", "toggleSearchModal()")
+      div.innerHTML = template
+      const script = document.createElement("script");script.setAttribute("src", "/js/algolia.js")
+      div.appendChild(script)
+      document.body.append(div)
+    } else {
+      document.body.removeAttribute("style")
+      document.body.removeChild(modal)
+    }
+  }
+</script>
+    </header>
+    
+  
+  
+  <main id="main" class="main">
+      <section>
+        <article class="article">
+          
+          <div class=" article-header ">
+            <div class="category component">
+              <div class="component-content">
+                <div class="category-eyebrow">
+                  <span class="category-eyebrow__category category_original">
+                    
+                      
+                        技巧
+                      
+                    
+                  </span>
+                  <span class="category-eyebrow__date">2023年6月10日</span>
+                </div>
+              </div>
+            </div>
+            <div class="pagetitle component">
+              <div class="component-content">
+                <h1 class="hero-headline">hugo主题配置</h1>
+              </div>
+            </div>
+            <div class="component  article-subhead ">
+              <div class="component-content">主题简单说明</div>
+            </div>
+
+            <div class="tagssheet component">
+              <div class="component-content">
+                
+                  
+                  <a href="/tags/%E6%8A%80%E5%B7%A7" class="tag">
+                    技巧
+                  </a>
+                
+              </div>
+            </div>
+          </div>
+          
+          <div class="pagebody">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+<div class="component-content pagebody component">
+  <h2 id="简介" class="pagebody-header">
+    简介：
+  </h2>
+</div><p class="component-content component">主题名叫 hugo-theme-itheme ，是一款苹果味十足的Hugo主题</p>
+<p class="component-content component">预览：
+<a href="https://hugo-theme-itheme.netlify.app">https://hugo-theme-itheme.netlify.app</a></p>
+<p class="component-content component">
+
+
+
+
+
+
+
+
+<figure class="image component image-fullbleed body-copy-wide nr-scroll-animation nr-scroll-animation--on image-big">  <div class="component-content">
+    <div class="image-sharesheet">
+      <div class="image image-load image-asset image-04e9ef0b70f86c527ad072f67ba9f937" id="lht04e9ef0b70f86c527ad072f67ba9f937">
+        <picture  class="picture">
+          <img class="picture-image" data-src="https://s2.loli.net/2023/06/10/lZoWiVGU2Jyb7Qp.png" alt="网站截图"  />
+        </picture>
+      </div>
+    </div>
+    <div class="image-description">
+      <div class="image-caption">
+        网站截图
+      </div>
+    </div>
+  </div>
+</figure>
+</p>
+
+<div class="component-content pagebody component">
+  <h3 id="github中文介绍文档" class="pagebody-header">
+    github中文介绍文档：
+  </h3>
+</div><p class="component-content component"><a href="https://github.com/floyd-li/hugo-theme-itheme/blob/master/README_CN.md#site-configuration">https://github.com/floyd-li/hugo-theme-itheme/blob/master/README_CN.md#site-configuration</a></p>
+
+<div class="component-content pagebody component">
+  <h3 id="hugo官网介绍" class="pagebody-header">
+    hugo官网介绍：
+  </h3>
+</div><p class="component-content component"><a href="https://themes.gohugo.io/themes/hugo-theme-itheme/">https://themes.gohugo.io/themes/hugo-theme-itheme/</a></p>
+
+<div class="component-content pagebody component">
+  <h2 id="重点" class="pagebody-header">
+    重点：
+  </h2>
+</div>
+<div class="component-content pagebody component">
+  <h3 id="文章开头的设置" class="pagebody-header">
+    文章开头的设置
+  </h3>
+</div><div class="component-content pagebody component code">
+  
+  
+  
+  <pre><code class="">title: &#39;Some Article&#39; //标题名称
+date: &#39;2022-10-27T13:06:38&#43;08:00&#39;
+draft: true //true 关闭；false 开启
+description: &#39;some description of the article&#39; //小标题
+author: &#39;author of this article&#39; //作者
+cover: &#39;https://example.com/cover.jpg&#39; // 封面图，如无配置，将用站点配置中的defaultCover
+tags: [&#34;tag1&#34;, &#34;tag2&#34;, &#34;tag3&#34;] //文章标签
+theme: &#34;dark&#34; // 设置文章的明暗主题(light/dark)</code></pre>
+  
+</div>
+<div class="component-content pagebody component">
+  <h3 id="调整内文图片尺寸" class="pagebody-header">
+    调整内文图片尺寸
+  </h3>
+</div><p class="component-content component">文章内图片有三种显示模式，分别为</p>
+<p class="component-content component">inline（中杯），big（大杯），wide（特大杯）</p>
+<p class="component-content component">应用举例：</p>
+<div class="component-content pagebody component code">
+  
+  
+  
+  <pre><code class="">![中杯|inline](这里填入图片的链接)</code></pre>
+  
+</div><p class="component-content component">分隔符是英文字符|，如果未设置则默认显示大杯big。</p>
+
+          </div><div class="component">
+            <div class="component-content">
+              <div class="article-copyright">
+                <p class="content">
+                  版权声明: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed" target="_blank">版权声明：署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)</a>
+                </p>
+                <p class="content">作者:  熬夜家 </p>
+                <p class="content">发表日期:  2023年6月10日</p>
+              </div>
+            </div>
+          </div></article>
+      </section>
+  </main>
+
+  <script>
+    var script = document.createElement("script");script.src = "/js/initPost.js";
+    document.head.appendChild(script);
+  </script>
+
+    
+    <div class="footer-main ">
+  <div class="content-body footer-wraper">
+    <div class="footer-box">
+      <div class="foot-nav">
+        <div class="foot-nav-items">
+          <div class="item">
+            <div class="logo"></div>
+            <div class="email">Email: <a href="mailto:2904817126@qq.com">2904817126@qq.com</a></div>
+          </div>
+
+          <div class="item community">
+            <div class="item-title">社交媒体</div>
+            
+              <a href="https://github.com" target="_blank">Github</a>
+            
+              <a href="https://twitter.com" target="_blank">Twitter</a>
+            
+          </div>
+
+          <div class="item resources">
+            <div class="item-title">友链</div>
+            
+              <a href="https://Apple.com/" target="_blank">Apple</a>
+            
+              <a href="https://Google.com/" target="_blank">Google</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="item copyright">
+          &copy; 2023
+          Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> & <a href="https://github.com/floyd-li/hugo-theme-itheme" target="_blank">iTheme</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+    
+    
+    <script src="/js/algoliasearch.umd.js"></script>
+    <script src="/js/autocomplete-js.js"></script>
+    
+
+    
+    
+        <script src="/js1.js"></script>
+    
+        <script src="/js2.js"></script>
+    
+</html>
